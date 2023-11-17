@@ -1,0 +1,42 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    /* width: 80%; */
+    margin: auto;
+}
+#sec{
+    height: 100vh;
+    background: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cardImage img{
+    width: 100%;
+}
+.row{
+    /* width: 30%; */
+    margin: auto;
+    padding-top: 5%;
+    text-align: center;
+}
+.card{
+    padding: 20px;
+}
+.btn{
+    /* width: 10%; */
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px #000;
+
+    /* position: absolute; */
+    /* bottom: 60%;
+    left: 10%; */
+}
+.btn:hover{
+    background-color: #a83232;
+    color: #fff;
+}

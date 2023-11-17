@@ -1,0 +1,44 @@
+@media(min-width:320px){
+    .container{
+        width: 100%;
+    }
+    .row{
+        width: 80%;
+    }
+    .btn{
+        width: 50%;
+        position: absolute;
+        bottom: 20%;
+        left: 24%;
+    }
+}
+
+@media(min-width:760px){
+    .container{
+        width: 90%;  
+    }
+    .row{
+        width: 70%;
+    }
+    .btn{
+        width: 40%;
+        position: absolute;
+        bottom: 40%;
+        left: 30%;
+    }
+}
+
+@media(min-width:960px){
+    .container{
+        width: 80%;
+    }
+    .row{
+        width: 30%;
+    }
+    .btn{
+        width: 10%;
+        position: absolute;
+        bottom: 60%;
+        left: 10%;
+    }
+}
